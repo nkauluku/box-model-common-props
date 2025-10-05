@@ -377,14 +377,14 @@ footer{
 /* For the last paragraph in the section */
 /* 
     TO DO: add styles to the last paragraph in this section that will:
-        - make the background the teal-rgba color
-        - add a 4 pixel dark gray border that is dashed
-        - add margin:
+        - make the background the teal-rgba color √
+        - add a 4 pixel dark gray border that is dashed √
+        - add margin: √
             - top: 16px
             - right: 60px
             - bottom: 32px
             - left: 8px
-        - add padding: 
+        - add padding: √
             - top: 32px
             - right: 8px
             - bottom: 16px
@@ -405,12 +405,16 @@ footer{
 /* To change the styles on each of those links when you're hovering over them with a mouse */
 /* 
     TO DO: add styles to the first link on hover in this section that will:
-        - make the background the dk-blue color
-        - make the text white
-        - change the color of the border to the lt-blue color
-        - add the small box shadow, using the variable in the root
+        - make the background the dk-blue color √
+        - make the text white √
+        - change the color of the border to the lt-blue color √
+        - add the small box shadow, using the variable in the root √
 */
 #section2 a:first-of-type:hover{
+    background-color: var(--dk-blue);
+    color: white;
+    border-color: var(--lt-blue);
+    box-shadow: var(--box-shadow-sm);
 
 }
 
