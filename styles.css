@@ -331,7 +331,7 @@ footer{
         - make the font display at 1.1rem √
         - make the text bold √
         - tell these to be 50% wide in the container √
-        - add the large box shadow 
+        - add the large box shadow √ 
 */
 /* ADD SELECTOR AND STYLES HERE */
 
@@ -391,7 +391,10 @@ footer{
             - left: 60px
 */
 #section2 div > p:last-of-type{
-    
+    background-color: var(--teal-rgba);
+    border: 4px dashed gray;
+    margin: 16px 60px 32px 8px;
+    padding: 32px 8px 16px 60px;
 }
 
  /* For the div wrapped around that paragraph to show the space its taking up within its container */
