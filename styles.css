@@ -1,7 +1,7 @@
 /* 
     This is a CSS comment. Please add your name to this file below:
     
-    NAME: 
+    NAME: Nainoa Kaulukukui
 */
 /* -------------------------------------------------- */
 /* 
@@ -325,13 +325,13 @@ footer{
 /* For both links in the section */
 /* 
     TO DO: add styles to both links in this section that will:
-        - make these links display as block-level elements
-        - remove the underline
-        - align the text to the center
-        - make the font display at 1.1rem
-        - make the text bold
-        - tell these to be 50% wide in the container
-        - add the large box shadow
+        - make these links display as block-level elements √
+        - remove the underline √
+        - align the text to the center √
+        - make the font display at 1.1rem √
+        - make the text bold √
+        - tell these to be 50% wide in the container √
+        - add the large box shadow 
 */
 /* ADD SELECTOR AND STYLES HERE */
 
@@ -343,6 +343,13 @@ footer{
     border: 4px solid var(--dk-blue);
     margin: 1rem auto;
     border-radius: 0 24px 24px 0;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: var(--box-shadow-lg);
 }
 
 /* For the paragraph with placeholder text */
@@ -358,6 +365,13 @@ footer{
     border: 6px solid var(--lt-blue);
     margin: 1rem auto 2rem auto;
     border-radius: 8px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: var(--box-shadow-lg);
 }
 
 /* For the last paragraph in the section */
