@@ -473,7 +473,7 @@ footer{
 
 /* 
     TO DO: add styles to the after pseudo-element on the div in this section that will:
-        - add content (empty string)
+        - add content (empty string) ?
         - make this display as a block-level element √
         - make this 50px wide √
         - make this 50px tall √
@@ -481,8 +481,8 @@ footer{
         - turn this square div into a circle ?
         - set the position to relative √
         - give this a z-index of 2 √
-        - move this up from its original location by 50px
-        - move this to the right from its original location by 25px
+        - move this up from its original location by 50px √
+        - move this to the right from its original location by 25px √
 */
 #section3 div::after{
     content: "";
@@ -509,14 +509,14 @@ footer{
 /* For the second paragraph */
 /* 
     TO DO: add styles to the last paragraph in this section that will:
-        - add margin:
+        - add margin: √
             - top: 1rem
             - right: 0
             - bottom: 1rem
             - left: 0
 */
 #section4 p:last-of-type{
-
+    margin: 1rem 0 1rem 0;
 }
 
 /* ------------- SECTION 5 STYLES ---------------- */
